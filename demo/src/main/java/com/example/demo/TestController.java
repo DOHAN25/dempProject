@@ -8,6 +8,6 @@ public class TestController {
     
     @RequestMapping("/")
     public String index() {
-        return "/d";
+        return "MainPage";
     }
 }
